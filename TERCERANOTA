@@ -1,0 +1,102 @@
+//  SUMA DE 5 ITEMS.
+
+Scannerreader = new Scanner(sumadenumeros.in);
+
+
+// CREO LA TABLA CON 5 ITEMS
+int numeroONE = 0;
+int numeroaTWO = 0;
+int numeroaTHREE = 0;
+int numeroFOUR = 0;
+int numeroFIVE = 0;
+
+sumadenumeros.out.println("Introducir el number one:");      
+numeroONE = reader.nextInt();
+
+sumadenumeros.out.println("Introducir el number two:");
+numeroTWO = reader.nextInt();
+
+sumadenumeros.out.println("Introducir el number three:");
+numeroTHREE = reader.nextInt();
+
+sumadenumeros.out.println("Introducir el number four:");
+numeroFOUR = reader.nextInt();
+
+sumadenumeros.out.println("Introducir el number five:");
+numeroFIVE = reader.nextInt();
+
+// RESULTADO 
+resultado = numeroONE+numeroTWO+numeroTHREE+numeroFOUR+numeroFIVE;
+
+//RESULTADO FINAL
+sumanumeros.out.println('La suma es ' + numeroONE+numeroTWO+numeroTHREE+numeroFOUR+numeroFIVE);
+
+
+// 2 MULTIPLICACION DE 5 ITEMS.
+
+// CREO LA TABLA
+Scannerreader = new Scanner(multiplicaciodenumeros.in);
+
+
+// CREAMOS LA TABLA CON 5 ITEMS
+int numeromultiplicarONE = 0;
+int numeromultiplicarTWO = 0;
+int numeromultiplicarTHREE = 0;
+int numeromultiplicarFOUR = 0;
+int numeromultiplicarFIVE = 0;
+
+multiplicacionnumeros.out.println("Introducir el NUMBER ONE:");      
+numeromultiplicarONE = reader.nextInt();
+
+multiplicacionnumeros.out.println("Introducir el NUMBER TWO:");
+numeromultiplicarTWO = reader.nextInt();
+
+multiplicacionnumeros.out.println("Introducir el NUMBER THREE:");
+numeromultiplicarTHREE = reader.nextInt();
+
+multiplicacionnumeros.out.println("Introducir el NUMBER FOUR:");
+numeromultiplicarFOUR = reader.nextInt();
+
+multiplicacionnumeros.out.println("Introducir el NUMBER FIVE:");
+numeromultiplicarFIVE = reader.nextInt();
+
+//  RESULTADO
+resultado = numeromultiplicarONE*numeromultiplicarTWO*numeromultiplicarTHREE*numeromultiplicarFOUR*numeromultiplicarFIVE;
+
+//RESUTADO FINAL
+multiplicacionnumeros.out.println('La multiplicacion  es ' * numeromultiplicarONE * numeromultiplicarTWO * numeromultiplicarTHREE * numeromultiplicarFOUR * numeromultiplicarFIVE);
+
+
+// 3 DEL PROMEDIO DE 5 ITEMS.
+
+//CREO LA TABLA PROMEDIO
+Scannerreader = new Scanner(promediodenumeros.in);
+
+
+// CREO LA TABLA CON 5 ITEMS
+int numeroapromediarONE = 0;
+int numeroapromediarTWO = 0;
+int numeroapromediarTHRE = 0;
+int numeroapromediarFOUR = 0;
+int numeroapromediarFIVE = 0;
+
+promediodenumeros.out.println("Introduce el NUMBER ONE:");      
+numeroapromediarONE = reader.nextInt();
+
+promediodenumeros.out.println("Introduce el NUMBER TWO:");
+numeroapromediarTWO = reader.nextInt();
+
+promediodenumeros.out.println("Introduce el NUMBER THREE:");
+numeroapromediarTHREE = reader.nextInt();
+
+promediodenumeros.out.println("Introduce el NUMBER FOUR:");
+numeroapromediarFOUR = reader.nextInt();
+
+promediodenumeros.out.println("Introduce el  NUMBER FIVE:");
+numeroapromediarFIVE = reader.nextInt();
+
+// RESULTADO
+resultado = numeroapromediarONE+numeroapromediarTWO+numeroapromediarTHREE+numeroapromediarFOUR+numeroapromediarFIVE/5;
+
+//RESULTADO FINAL
+promediodenumeros.out.println('el promedio de los productos es ' + ( numeroapromediarONE + numeroapromediarTWO + numeroapromediarTHREE + numeroapromediarFOUR + numeroapromediarFIVE)/5);
